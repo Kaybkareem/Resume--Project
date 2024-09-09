@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    Margin: 0;
+    padding: 20px;
+    background-color:rgba(220, 220, 220, 0.822);
+    line-height: 1.6;
+    color:#333;
+
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+p{
+    margin: 0;
+}
+
+section{
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid darkgoldenrod;
+    padding-bottom: 5px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a{
+    color:#0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    color:orangered
+
+}
+
+section {
+      flex: 1;
+      margin: 10px;
+}
+
+
+
+/* For tablets (max-width 1024px) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    body {
+        margin: 10px;
+    }
+}
+
+/* For mobile devices (max-width 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    body {
+        margin: 5px;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    header {
+        text-align: left;
+    }
+
+    p a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
